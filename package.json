@@ -1,0 +1,8 @@
+{
+	"name" : "my_chat_app",
+	 "dependencies" : {
+	 	"socket.io" : "~0.9.6",
+		"mime" : "~1.2.7"
+	 }
+
+}

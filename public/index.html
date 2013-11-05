@@ -1,15 +1,18 @@
 <html>
 <head>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="./javascripts/chat.js"></script>
+	<script src="./javascripts/chat_ui.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
 </head>
 
 <body>
 	<h1>Index</h1>
 	<div class="message-area"></div>
-	<form class="message-input">
+	<form class="message-input" action = "/">
 		<textarea class="message"></textarea>
 		<br>
-		<input type="submit">
+		<button type= "button" class="send-message">Send!</button>
 	</form>
 </body>
 </html>
